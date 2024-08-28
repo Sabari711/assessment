@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background: #112c36;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* ::-webkit-scrollbar-track {
+    width: 5px;
+    height: 5px;
+  } */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #112c36;
+}
+
+p {
+  color: #000;
+}
+
+.home-section {
+  background-image: url('../src/assets/images/bg-img.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.home-section h1 {
+  font-weight: 600;
+  color: #000;
+}
+
+.inner-box {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 30%;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.opt {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
